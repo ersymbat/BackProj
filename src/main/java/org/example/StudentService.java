@@ -1,6 +1,7 @@
 package org.example;
 
 public interface StudentService {
-    void showStudent();
+    void showStudent(Student student);
+    String checkStudentFor18(Student student);
 }
 
